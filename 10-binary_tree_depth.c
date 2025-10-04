@@ -17,9 +17,9 @@ size_t binary_tree_depth(const binary_tree_t *tree)
 		return (0);
 
     /* Traverse up to the root, counting edges */
-    	while (tree->parent)
-    	{
-        	depth++;
+	while (tree->parent)
+	{
+		depth++;
 		tree = tree->parent;
 	}
 
