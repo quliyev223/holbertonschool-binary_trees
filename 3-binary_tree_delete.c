@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_delete - Deletes an nentiry binary tree
- * #tree: Pointer to the root node og the tree to delete
+ * @tree: Pointer to the root node og the tree to delete
  *
  * Description: Recursively frees all nodes in the binary tree
  * starting from the given root node.
