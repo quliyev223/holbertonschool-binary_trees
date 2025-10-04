@@ -8,7 +8,7 @@
  *
  * Description: Visits the current node first, then the left
  * subtree, then the right subtree. Does nothing if tree or func is NULL.
- * 
+ *
  * Return: Nothing
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
